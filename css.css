@@ -1,0 +1,113 @@
+
+    body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+    
+    .hero-section {
+      background-image: url('./image/e162486fce68e1a4727e6d12025aba9b.jpg');
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+    }
+
+    .hero-section h1 {
+      font-family: 'Sacramento', cursive;
+      font-size: 2rem;
+      color: white;
+      text-align: center;
+    }
+
+    p {
+      font-family: sans-serif;
+      color: white;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    .hero-img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    #pro{
+      text-decoration: underline;
+    }
+
+    .sec2 {
+      background-color: #0a192f;
+      color: white;
+      padding: 5rem 0;
+    }
+
+    .skill-section {
+      background-color: #0a192f;
+      padding: 5rem 0;
+      color: white;
+    }
+
+    .skill-card {
+      background-color: #172a45;
+      border-radius: 15px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      transition: transform 0.3s;
+    }
+
+    .skill-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .skill-title {
+      color: #64ffda;
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+    }
+
+    /* Contact Section */
+    .contact-section {
+      background-color: #0a192f;
+      padding-bottom: 2rem;
+    }
+    
+    .social-icons {
+      margin: 2rem 0;
+    }
+    
+    .social-icons a {
+      color: white;
+      margin: 0 1rem;
+      transition: color 0.3s;
+    }
+    
+    .social-icons a:hover {
+      color: #64ffda;
+    }
+
+    /* Footer */
+    .custom-footer {
+      background-color: #0a192f;
+      padding: 1rem 0;
+      border-top: 1px solid #172a45;
+    }
+
+    /* Mobile-specific styles */
+    @media (max-width: 767.98px) {
+      .mobile-stack {
+        flex-direction: column;
+      }
+      .mobile-center {
+        text-align: center !important;
+        padding: 0 !important;
+      }
+      .mobile-order {
+        order: -1;
+        margin-bottom: 2rem;
+      }
+    }
+  
